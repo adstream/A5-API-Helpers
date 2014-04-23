@@ -1,0 +1,19 @@
+{
+  "name": "adstream-adbank-api-generate-hash",
+  "version": "1.0.0",
+  "description": "Generate hash for AdBank A5 API requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adstream/A5-API-Helpers"
+  },
+  "author": "Simon McManus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adstream/A5-API-Helpers/issues"
+  },
+  "homepage": "https://github.com/adstream/A5-API-Helpers"
+}
