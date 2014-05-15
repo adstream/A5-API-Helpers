@@ -16,7 +16,7 @@ exports.generate = function(key, secret) {
 };
 
 exports.getQueryHash = function(key, secret) {
-  return exports.generate(key, secret);
+  return encodeURIComponent(exports.generate(key, secret));
 };
 
 exports.getHeaderHash = function(key, secret) {

@@ -1,6 +1,6 @@
 {
   "name": "adstream-adbank-api-generate-hash",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Generate hash for AdBank A5 API requests",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/adstream/A5-API-Helpers/issues"
   },
-  "homepage": "https://github.com/adstream/A5-API-Helpers"
+  "homepage": "https://github.com/adstream/A5-API-Helpers",
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
 }
